@@ -1,0 +1,101 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: radial-gradient(red, pink);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .accordion {
+     background-color: white;
+     max-width: 45vw;
+     min-height: 50vh;
+     border-radius: 20px;
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: center;
+     justify-content: space-around;
+
+ }
+
+ .accordion-container {
+
+     padding: 20px;
+ }
+
+ .group-all {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     cursor: pointer;
+
+ }
+
+ .questions-container {
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     border-bottom: 2px solid black;
+ }
+
+ .question {
+     margin-left: -9px;
+ }
+
+ .sign {
+     margin-right: -9px;
+ }
+
+ .transitionRemove {
+     height: 0px;
+     overflow: hidden;
+     transition: .5s;
+     cursor: pointer;
+ }
+
+
+
+
+ .transitionShow {
+     height: 70px;
+     overflow: scroll;
+     overflow-y: hidden;
+     overflow-x: hidden;
+     transition: .5s;
+     cursor: pointer;
+
+ }
+
+
+
+
+
+
+ /* animation method(check javascript) */
+ /* .animationMethod {
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 70px;
+        animation-name: just;
+        animation-duration: .5s;
+
+    }
+
+    @keyframes just {
+        0% {
+            height: 0px;
+
+        }
+
+        99% {
+            height: 70px;
+        }
+    } */
